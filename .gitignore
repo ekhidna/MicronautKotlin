@@ -1,0 +1,77 @@
+# Compiled class file
+##*.class
+
+# Log file
+##*.log
+
+# BlueJ files
+##*.ctxt
+
+# Mobile Tools for Java (J2ME)
+##.mtj.tmp/
+
+# Package Files #
+##*.jar
+##*.war
+##*.nar
+##*.ear
+##*.zip
+##*.tar.gz
+##*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+##hs_err_pid*
+
+#***********************************************************************************************
+
+dist/
+.DS_Store
+target/
+.gradle/
+.idea/
+build/
+!build-logic/src/main/java/io/micronaut/build
+classes/
+out/
+*.db
+*.log
+*.iml
+.classpath
+.factorypath
+bin/
+.settings/
+.project
+*/test/
+*/META-INF/
+*.ipr
+*.iws
+.kotlintest
+*/.kotlintest/
+
+# ignore resources, are downloaded via a gradle task from micronaut_docs
+src/main/docs/resources/css/highlight/*.css
+src/main/docs/resources/css/highlight/*.png
+src/main/docs/resources/css/highlight/*.jpg
+src/main/docs/resources/css/*.css
+src/main/docs/resources/js/*.js
+src/main/docs/resources/style/*.html
+src/main/docs/resources/img/micronaut-logo-white.svg
+
+
+#*************************************************************************************************
+
+Thumbs.db
+.DS_Store
+.gradle
+build/
+target/
+out/
+.micronaut/
+.idea
+*.iml
+*.ipr
+*.iws
+.project
+.settings
+.classpath
+.factorypath
